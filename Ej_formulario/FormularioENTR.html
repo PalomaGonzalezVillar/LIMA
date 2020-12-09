@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Manejo de formularios">
+    
+        <link rel="stylesheet" href="formcss.css">
+        
+        <title>Formulario</title>
+        
+    </head>
+    
+    <body style="background-color: ghostwhite">
+        <form action="./procesadatos.php" method="post">
+            
+            <br/>
+            
+            <span id="nm">Nombre: </span><input type="text" name="Nombre" placeholder="Escribe tu nombre" required size="15" maxlength="25" tabindex="1" autofocus required>
+            
+            <span id="lastnm">Apellidos: </span><input type="text" name="Apellidos" placeholder="Escribe tus apellidos" size="50" maxlength="40" tabindex="2" required>
+            
+            <br/><br/>
+            <br/><br/>
+            
+            <span id="dir">Dirección completa: </span>
+            
+            <p id="img">
+                Foto de perfil: 
+                <input type="file" name="imagen" placeholder="Imagen">
+            </p>
+            
+            
+            
+            <br/>
+            
+            
+            <p id="p1">
+            Calle: <input id="top" type="text" name="Calle" placeholder="Escribe aqui la calle" size="50" maxlength="150" tabindex="3" required>
+            
+            <br/>
+            
+            Numero: <input type="number" name="Numero" placeholder="ej.:12" tabindex="4">
+            
+            <br/>
+            
+            Letra: <input type="text" name="Letra" placeholder="Letra" size="5" maxlength="5" tabindex="5">
+            
+            <br/>
+            
+            Bloque: <input type="text" name="Bloque" placeholder="Bloque" size="5" maxlength="5" tabindex="6">
+            
+            <br/>
+            
+            Codigo postal: <input type="number" name="Letra" placeholder="00000" tabindex="7" step="1" min="01000" max="52999" required>
+            
+            <br/>
+            
+            Localidad: <input type="text" name="Localidad" placeholder="Localidad" size="20" maxlength="30" tabindex="8" required>
+            
+            <br/>
+            
+            Provincia: <input type="text" name="Provincia" placeholder="Indica tu provincia" size="15" maxlength="40" tabindex="9"required>
+            
+            <br/>
+            
+            País: 
+            <select name="menu" size="3" required>
+                <option selected>España</option>
+                <option value="2">Francia</option>
+                <option value="3">Portugal</option>
+                <option value="4">Reino Unido</option>
+                <option value="5">Italia</option>
+                <option value="6">Alemania</option>
+                <option value="7">EE.UU</option>
+                <option value="8">Mexico</option>
+                <option value="9">China</option>
+                <option value="10">Japón</option>
+            </select>
+            
+            </p>
+            
+            
+            <br/><br/>
+            
+            <span id="currm">Curriculum: </span><input type="file" name="Archivo" required>
+            
+            <br/><br/>
+            
+            Fecha: <input type="date" name="Fecha" required>
+            
+            <br/><br/>
+            
+            <span id="email">Email: </span><input type="email" name="Correo" placeholder="Correo electronico" size="45" required>
+            
+            Página Web: <input type="url" name="Direccion web" placeholder="Pagina web" size="45">
+            
+            <br/><br/>
+            
+            Teléfono fijo: <input type="tel" name="tlfn">
+            Teléfono movil: <input type="tel" name="tlfn" placeholder="*sin prefijo*" required>
+            
+            <br/><br/>
+            
+            Nota ABAU: <input type="number" name="Nota ABAU" placeholder="0" step="0.5" min="00" max="010" required>
+            
+            <br/><br/>
+            
+            Usuario: <input type="text" name="Nombre Usuario" placeholder="Nombre de usuario" maxlength="12" required>
+            
+            Contraseña: <input type="password" name="Contraseña" minlength="6" maxlength="14" required>
+            
+            <br/><br/>
+            
+            <p id="afc">
+            Aficiones:
+            <br/><br/>
+            <input type="checkbox" name="boton" value="1" >Leer
+            <br>
+            <input type="checkbox" name="boton" value="2">Hacer manualidades
+            <br>
+            <input type="checkbox" name="boton" value="3">Viajar
+            <br>
+            <input type="checkbox" name="boton" value="4">Dibujar
+            <br>
+            <input type="checkbox" name="boton" value="5">Hacer ejercicio
+            <br>
+            <input type="checkbox" name="boton" value="6">Otra/s
+            </p>
+            
+            
+            
+            
+            <p id="ed">
+            Edad:
+            <br/><br/>  
+            <input type="radio" name="boton" value="1">Mayor o igual a 18 y menor de 22
+            <br>
+            <input type="radio" name="boton" value="2">Mayor o igual a 22 y menor de 30
+            <br>
+            <input type="radio" name="boton" value="3">Mayor o igual a 30 y menor de 40
+            <br>
+            <input type="radio" name="boton" value="4">Mayor o igual a 40
+            </p>
+            
+            <br/><br/>
+            
+            Idioma: <input type="text" name="idioma" placeholder="Escribe tu idioma">
+            
+            <br/><br/>
+            
+            
+            <span id="comnt">Comentarios:</span>
+            <br/><br/>
+            <textarea name="comentario" placeholder="Escribe aqui tu comentario" role="4" cols="40"></textarea>
+            
+            <br/><br/>
+            <br/><br/>
+            
+            He leído y acepto el aviso legal y la política de privacidad <input type="checkbox" name="Terminos" value="Si" required>
+            
+            
+            <br/><br/>
+            
+            <button type="submit"><img src="enviar.png"></button>
+            <button id="borrar" type="reset"><img src="rehacer.png"></button>
+            
+            
+        </form>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+#img {
+    position:absolute;
+    right: 0;
+}
+#p1 {
+    border: 2px solid lightskyblue;
+    background: lightcyan;
+}
+#nm {
+    color: darkseagreen;
+    font-family:monospace;
+    font-size: 16px;
+}
+#lastnm {
+    color: crimson;
+    font-family:monospace;
+    font-size: 16px;
+}
+#afc {
+    border: 2px dashed yellow;
+    background: lemonchiffon;
+}
+#ed {
+    border: 2px dashed plum;
+    background: lavender;
+}
+#dir {
+    font-size: 20px;
+    font-family:courier;
+    border-bottom:1px solid;
+}
+#currm {
+    font-family: cursive;
+    font-style:italic;
+}
+#email {
+    font-family: cursive;
+    font-style:italic;
+}
+#comnt {
+    font-family:courier;
+    border-bottom:1px solid;
+}
+#borrar{
+    position:absolute;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
