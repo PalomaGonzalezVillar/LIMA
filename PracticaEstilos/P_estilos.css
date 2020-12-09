@@ -1,0 +1,24 @@
+ol {
+	border:1px solid black;
+}
+li {
+	color:cyan;
+	font-family:monospace;
+	font-size:25px;
+	background-color:yellow;
+}
+dl {
+    font-family:courier;
+}
+dt {
+	background-color:aquamarine;
+	color:red;
+	border:3px dashed black;
+}
+dd {
+	font-family:cursive;
+	font-style:italic;
+}
+#Elmt1 {
+	font-size:40px;
+}
