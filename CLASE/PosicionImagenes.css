@@ -1,0 +1,93 @@
+*{
+	margin:0px;
+}
+#Diving1{
+	border:1px solid black;
+	text-align:center;
+}
+
+#Diving2{
+	border:1px solid black;
+	position:relative;
+	left:200px;
+	bottom:400px;
+}
+#img2{
+	position: relative;
+	top:0px;
+}
+
+#Diving3{
+	border:1px solid black;
+	position:relative;
+	left:200px;
+	bottom:400px;
+}
+#img3{
+	position: relative;
+	top:0px;
+}
+
+#Diving4{
+	border:1px solid black;
+	position:relative;
+	left:200px;
+	bottom:400px;
+}
+#img4{
+	position: relative;
+	top:0px;
+}
+
+#Diving5{
+	border:1px solid black;
+	position:relative;
+	left:200px;
+	bottom:400px;
+}
+#img5{
+	position: relative;
+	top:0px;
+}
+
+#Diving6{
+	border:1px solid black;
+	position:relative;
+	left:200px;
+	bottom:400px;
+}
+#img6{
+	position: relative;
+	top:0px;
+}
+
+#Diving7{
+	border:1px solid black;
+	position:relative;
+	left:200px;
+	bottom:400px;
+}
+#img7{
+	position: absolute;
+	top:600px;
+	left:0px;
+}
+
+#Diving8{
+	border:1px solid black;
+	position:relative;
+	left:200px;
+	bottom:400px;
+}
+#img8{
+	position: absolute;
+	top:800px;
+	right:0px;
+}
+
+
+
+
+
+
+

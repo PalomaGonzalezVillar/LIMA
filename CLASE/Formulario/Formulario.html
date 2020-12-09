@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Manexo de formularios">
+    
+        <link rel="stylesheet" href="Estilos_form.css">
+        
+        <title>Titulo de la página web</title>
+        
+    </head>
+    
+    <body>
+        <form action="./procesadatos.php" method="post">
+            
+            Nombre:<input type="text" name="Nombre" value="Escribe tu nombre" required size="15" maxlength="25" autofocus>
+            
+            <br/>
+            
+            Apellidos:<input type="text" name="Apellidos" placeholder="Escribe tus apellidos" size="50" maxlength="40" tabindex="1">
+            
+            <br/>
+            
+            Dirección completa:
+            
+            <br/>
+            
+            Calle:<input type="text" name="Calle" placeholder="Escribe aqui la calle" size="50" maxlength="150" tabindex="2">
+            
+            Numero:<input type="number" name="Numero" tabindex="3">
+            
+            Letra:<input type="text" name="Letra" placeholder="Letra" size="5" maxlength="5" tabindex="4">
+            
+            Piso:<input type="text" name="Piso" placeholder="Piso" size="5" maxlength="5" tabindex="5">
+            
+            Bloque:<input type="text" name="Bloque" placeholder="Bloque" size="5" maxlength="5" tabindex="6">
+            
+            <br/>
+            
+            Codigo postal:<input type="number" name="Letra" placeholder="00000" tabindex="7" step="1" min="01000" max="52999">
+            
+            Localidad:<input type="text" name="Localidad" placeholder="Localidad" size="20" maxlength="30" tabindex="8">
+            
+            País:<input type="text" name="País" placeholder="País" size="15" maxlength="40" tabindex="9">
+            
+            <br/>
+            
+            Provincia:<input type="text" name="Provincia" placeholder="Indica tu provincia" size="15" maxlength="40" tabindex="10">
+            
+            <br/>
+            <br/><br/>
+            
+            <input type="submit" value="Enviar">
+            <button type="submit"><img src="star.png"> Enviar</button>
+            <input type="reset" value="Borrar">
+            <button type="reset">Borrar</button>
+            
+        </form>
+    </body>
+    
+</html>

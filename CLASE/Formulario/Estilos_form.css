@@ -1,0 +1,8 @@
+/*Get= los datos van en abierto (se ven)
+Post= los datos van en priv (no se ven)
+Size= num de caracteres que se pueden introducir
+Value= 
+Placeholder= Permite escribir sin tener que borrar lo que habia para escribir sus apellidos
+tabindex= posicion del cursor
+step="0.23" min="2" max="32" -> esto es para numeros: va de 0.23 en 0.23 y el minimo y maximo permitido
+button= boton para enviar (se puede personalizar)*/

@@ -1,0 +1,40 @@
+/* p, div, h1, h2, h3, h4, h5, h6{
+	text-align:center;
+} */
+div {
+	color:blue;
+}
+p{
+	border-top-color: red;
+	border-top-style: dashed;
+	border-left-color: blue;
+	border-left-style: dotted;
+	border-bottom-color: yellow;
+	border-bottom-style: solid;
+}
+body{
+	text-align: center;
+} 
+.alingleft{
+	text-align: left;
+}
+.alingcenter{
+	text-align: center;
+}
+.alingright{
+	text-align: right;
+}
+#div2 {
+	background-color: yellow;
+}
+#parrafo100{
+	font-size:100px;
+}
+
+
+
+
+
+
+
+

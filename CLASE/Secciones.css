@@ -1,0 +1,23 @@
+header,nav,section,aside,footer {
+    border: 1px solid black;
+    margin: 2px 0px 2px; 
+}
+footer {
+    position: absolute;
+    bottom:0px;
+}
+#pral {
+    float: left;
+    width: 84%;
+}
+aside{
+    float: right;
+    widows: 15%;
+}
+#img {
+    float: left;
+}
+
+
+
+
